@@ -11,3 +11,38 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.footer{
+  color: white;
+  font-size: 1.2rem;
+  height: 135px;
+}
+
+.footer-text{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  height: 135px;
+}
+
+.jumbotron-container{
+  margin-top: 65px;
+}
+
+.jumbotron-title{
+  font-size: 3rem;
+}
+
+.jumbotron-text{
+  font-size: 1.2rem;
+}
+
+.jumbotron-btn-text{
+  font-size: 1.5rem;
+}
